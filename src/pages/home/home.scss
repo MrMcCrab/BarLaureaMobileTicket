@@ -1,0 +1,12 @@
+page-home {
+	#topButtons {
+		vertical-align: middle;
+		display: flex;
+
+		//changed from row to column 18.10.2017
+		flex-direction: column;
+	}
+	#topButtons button {
+		flex: 1;
+	}
+}

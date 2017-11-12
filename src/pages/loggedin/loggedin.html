@@ -1,0 +1,26 @@
+
+<ion-header>
+    <ion-navbar color="primary">
+      <ion-buttons start>
+          <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+        </ion-buttons>
+
+        <ion-buttons end>
+          <button ion-button (click)="logout()">
+            <ion-icon name="log-out"></ion-icon>
+          </button>
+        </ion-buttons>
+
+     <ion-title>About</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div style="display: flex; justify-content: center;"><img src="https://i.imgur.com/KzOS5fw.png" style="width:150px;height:200px"></div>
+  <p>My name is Mikael Haapa-aho. I live in Helsinki, Finland and I was born in 1995.</p>
+  <p>I'm interested in IT industry as a whole. My other passions are music, games and art.</p>
+  <p>This app was made for Introduction to Mobile Development course.</p>
+</ion-content>

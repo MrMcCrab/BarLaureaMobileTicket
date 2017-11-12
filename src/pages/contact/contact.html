@@ -1,0 +1,40 @@
+<ion-header>
+    <ion-navbar color="primary">
+      <ion-buttons start>
+          <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+        </ion-buttons>
+
+        <ion-buttons end>
+          <button ion-button (click)="logout()">
+            <ion-icon name="log-out"></ion-icon>
+          </button>
+        </ion-buttons>
+
+     <ion-title>Contact</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <table class="contactTable">
+    <tr>
+      <th><ion-icon name="person"></ion-icon></th>
+      <td>Mikael Haapa-aho</td>
+    </tr>
+    <tr>
+      <th><ion-icon name="pin"></ion-icon></th>
+      <td>Vaskihuhdankuja 5, 00740 Helsinki</td>
+    </tr>
+    <tr>
+      <th><ion-icon name="mail"></ion-icon></th>
+      <td>mikael_h3@hotmail.com</td>
+    </tr>
+    <tr>
+      <th><ion-icon name="call"></ion-icon></th>
+      <td>+358442516538</td>
+    </tr>
+  </table>
+
+</ion-content>
